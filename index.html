@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="generate-container">
+      <p class="header-text">Password Generator</p>
+      <div class="generate-box">
+        <h2>Generate Password</h2>
+        <div class="password-box">
+          <p class="password">Ljldsfjosdfkljelfkklsdf</p>
+          <div class="button-box">
+            <button><img src="/assets/reload.png" /></button>
+            <button>Copy</button>
+          </div>
+        </div>
+        <div class="psw-len-box">
+          <div>
+            <label for="psw-len">Password Length</label>
+            <input type="range" id="psw-len" max="45" />
+          </div>
+          <h3 class="len-value"></h3>
+        </div>
+      </div>
+    </div>
+    <script src="script.js" />
+  </body>
+</html>
